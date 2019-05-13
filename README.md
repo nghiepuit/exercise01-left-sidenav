@@ -1,3 +1,5 @@
+## DEMO: https://nghiepuit.github.io/exercise01-left-sidenav
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
