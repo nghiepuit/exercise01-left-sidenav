@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exercise01-left-sidenav/static/css/main.acd1656f.chunk.css",
+    "main.js": "/exercise01-left-sidenav/static/js/main.4e3e40e4.chunk.js",
+    "main.js.map": "/exercise01-left-sidenav/static/js/main.4e3e40e4.chunk.js.map",
+    "runtime~main.js": "/exercise01-left-sidenav/static/js/runtime~main.8055dc95.js",
+    "runtime~main.js.map": "/exercise01-left-sidenav/static/js/runtime~main.8055dc95.js.map",
+    "static/js/2.5dbd8ed4.chunk.js": "/exercise01-left-sidenav/static/js/2.5dbd8ed4.chunk.js",
+    "static/js/2.5dbd8ed4.chunk.js.map": "/exercise01-left-sidenav/static/js/2.5dbd8ed4.chunk.js.map",
+    "index.html": "/exercise01-left-sidenav/index.html",
+    "precache-manifest.916814a7a8bbf73545a62378e90f1f0f.js": "/exercise01-left-sidenav/precache-manifest.916814a7a8bbf73545a62378e90f1f0f.js",
+    "service-worker.js": "/exercise01-left-sidenav/service-worker.js",
+    "static/css/main.acd1656f.chunk.css.map": "/exercise01-left-sidenav/static/css/main.acd1656f.chunk.css.map"
+  }
+}
