@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +35,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-item {
+  padding: 20px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item:hover {
+  background: gray;
+}
+
+.list-item__show-children {
+  background-color: gray;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.sidebar {
+  height: 100%;
+  background-color: #ededed;
+  text-align: left;
+}
+
+.content {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 240px;
+  right: 0;
+  bottom: 0;
+  transition: left 0.3s ease-out 0s, right 0.3s ease-out 0s;
+  text-align: left;
+}
+
+.remove-left {
+  left: 0;
+}
+
+.list-item__icon-arrow {
+  font-size: 15px;
+  transform: rotate(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.list-item__icon-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.list-item__level-2 {
+  padding-left: 30px;
+}
+
+.list-item__wrapper-list-children {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 300ms ease-out;
+}
+
+.list-item__wrapper-list-children-show-children {
+  max-height: 500px;
+  transition: max-height 500ms ease-in-out;
+  overflow: visible;
 }
